@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    height: 100vh;
+    background-image: url("../IconImage/download1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.login_box {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 50px 20px;
+    width: 300px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.input_box {
+    width: 90%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+
+.input_box input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.remember {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.remember label {
+    margin: 0 5px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.log {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.log button {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.log button:hover {
+    background-color: #8ea3db;
+    color: #fff;
+    border: 1px solid #8ea3db;
+    cursor: pointer;
+}
+
+.reg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg p {
+    font-size: 18px;
+    color: black;
+    margin-right: 5px;
+    font-weight: bold;
+}
